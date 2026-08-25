@@ -11,7 +11,7 @@
 - install R and RStudio
 
 ### resources
-- [slides](https://github.ch/pages/juliankraft/acls_prep_class/slides/0901_presentation.html)
+- [slides](https://juliankraft.github.io/acls_prep_class/slides/0901_presentation.html)
 - [windows tutorial](tutorials/windows_setup_tutorial.md)
 - [mac tutorial](tutorials/mac_setup_tutorial.md)
 
@@ -25,7 +25,7 @@
 - setup your own GitHub repository for a Python project and push it to GitHub
 
 ### resources
-- [slides](https://github.ch/pages/juliankraft/acls_prep_class/slides/0903_presentation.html)
+- [slides](https://juliankraft.github.io/acls_prep_class/slides/0903_presentation.html)
 - [python tutorial](tutorials/python_tutorial.md)
 
 ## License

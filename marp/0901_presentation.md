@@ -13,7 +13,7 @@ size: 16:9
 
 # Prep Class ACLS
 Part I - setting up your development environment
-02 September 2026
+01 September 2026
 
 Jūlija Pečerska, Julian Kraft
 
