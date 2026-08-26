@@ -3,12 +3,14 @@
 ## Day 1 - Setting up your development environment
 
 ### objectives
+
+- install WSL Windows
+- install a package manager Homebrew mac
+- install Mamba - a Python environment manager
+- install R and RStudio
 - create a GitHub account and link it to your students account
 - set up an SSH key and link it to your GitHub account
-- install a package manager (Homebrew or Chocolatey)
-- install Anaconda - a Python environment manager
-- install Visual Studio Code - an IDE for programming
-- install R and RStudio
+- decide on your IDE (Visual Studio Code or PyCharm)
 
 ### resources
 - [slides](https://juliankraft.github.io/acls_prep_class/slides/0901_presentation.html)
@@ -18,9 +20,10 @@
 ## Day 2 - Getting started with Python
 
 ### objectives
+- install Visual Studio Code - an IDE for programming
 - get a Python environment ready for Data Science
 - create a first simple Python script and run it
-- use a Jupyter Noteboogk to run Python code interactively
+- use a Jupyter Notebook to run Python code interactively (exploration and visualization)
 - clone a GitHub repository to your local computer and run the code
 - setup your own GitHub repository for a Python project and push it to GitHub
 
@@ -31,4 +34,3 @@
 ## License
 
 This project is dedicated to the public domain under [CC0 1.0](LICENSE.txt). This work is provided "as-is", without warranty of any kind. To the extent permitted by law, the authors disclaim all liability for damages resulting from the use of this work.
-
