@@ -54,6 +54,10 @@ To install RStudio, run the following command:
 brew install --cask rstudio
 ```
 
+Launch RStudio and you will be prompted to select the R version to use.
+Select the R version you just installed.
+You are all set for your D modules.
+
 ## Step 4: Set up GitHub and SSH
 
 Open [GitHub, SSH and IDE tutorial](github_ssh_ide.md) and follow the instructions to set up your GitHub account and SSH key.
