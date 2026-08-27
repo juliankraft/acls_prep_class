@@ -56,4 +56,5 @@ brew install --cask rstudio
 
 ## Step 4: Set up GitHub and SSH
 
-Open [GitHub and SSH tutorial](github_and_ssh.md) and follow the instructions to set up your GitHub account and SSH key.
+Open [GitHub, SSH and IDE tutorial](github_ssh_ide.md) and follow the instructions to set up your GitHub account and SSH key.
+And decide on your IDE (Visual Studio Code or PyCharm)

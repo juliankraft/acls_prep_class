@@ -4,8 +4,8 @@
 
 ### objectives
 
-- install WSL Windows
-- install a package manager Homebrew mac
+- install WSL (Windows Subsystem for Linux)
+- install a package manager Homebrew (macOS)
 - install Mamba - a Python environment manager
 - install R and RStudio
 - create a GitHub account and link it to your students account
@@ -16,6 +16,7 @@
 - [slides](https://juliankraft.github.io/acls_prep_class/slides/0901_presentation.html)
 - [windows tutorial](tutorials/windows_setup_tutorial.md)
 - [mac tutorial](tutorials/mac_setup_tutorial.md)
+- [github, ssh and ide tutorial](tutorials/github_ssh_ide.md)
 
 ## Day 2 - Getting started with Python
 

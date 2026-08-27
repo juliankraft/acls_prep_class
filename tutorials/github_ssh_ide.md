@@ -1,4 +1,4 @@
-# Setting up GitHub and SSH for authentication
+# Setting up GitHub and SSH for authentication and deciding on your IDE
 
 ## Step 1: Create a GitHub account and link it to your student account
 
@@ -39,3 +39,18 @@ Copy the whole line and go to your [GitHub account settings](https://github.com/
 In the left sidebar, click on "SSH and GPG keys" and then click on "New SSH key".
 Give your key a title (e.g. "My Laptop") and paste the public key you just copied into the "Key" field.
 Click on "Add SSH key" and you are done! You can now use SSH to log into GitHub without having to enter your password!
+
+## Step 3: Decide on your IDE
+
+An IDE (integrated development environment) is the program you'll write and run your code in.
+We recommend either VS Code or PyCharm - both work well, so pick whichever fits your workflow better.
+Try to install it until Thursday so we can dive into Python.
+
+|                  | VS Code                                                                 | PyCharm                                                                                     |
+|------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Link             | [code.visualstudio.com](https://code.visualstudio.com/)                  | [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)                                  |
+| Cost             | Free                                                                      | Community edition free; Professional edition free with a student license                     |
+| Type             | Lightweight, general-purpose editor extended via plugins                 | Full-featured IDE built specifically for Python                                              |
+| Language support | Python and almost anything else, once you install the right extensions | Python out of the box; other languages need plugins and are less well supported     |
+| Setup effort     | Minimal to start, more configuration as you add extensions               | More built-in from the start, less configuration needed                                      |
+| Best for         | Students who want one editor for everything (code, Markdown, LaTeX, notebooks, config files, ...) | Students who want minimal setup effort for a perfect Python environment |
