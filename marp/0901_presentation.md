@@ -20,23 +20,11 @@ Jūlija Pečerska, Julian Kraft
 ---
 
 # Jūlija
-## Education/Research
 
 - **'08 – '12:** BSc, CS @ LU (software engineering)
 - **'12 – '14:** MSc, CS @ ETHZ (general CS)
 - **'14 – '19:** PhD, Computational Evolution w/ Tanja Stadler @ ETHZ
 - **'20 – ...:** Postdoc/Researcher, Computational genomics w/ Maria Anisimova & Manuel Gil @ ZHAW
-
----
-
-# Jūlija
-## Experience
-
-- **'10 – '12:** Software engineer @ Accenture
-- **'12 – '14:** Research assistant @ ETHZ
-- **'16 – '24:** TA/instructor @ Taming the BEAST course
-- **'22 – ...:** TA/instructor @ CoME summer school
-- **'23 – ...:** Lead developer of the `phyne` library in Rust
 
 ---
 
@@ -48,12 +36,12 @@ Jūlija Pečerska, Julian Kraft
 ---
 
 # Roadmap for today
-- insalling some things
-- beeing confused a little
+- installing some things
+- being confused a little
 - installing more things
-- beeing confused more
+- being confused more
 - installing even more things
-- beeing okay with beeing confused
+- being okay with being confused
 
 ---
 
@@ -96,6 +84,7 @@ Jūlija Pečerska, Julian Kraft
 
 - **R:** a programming language for statistics; **RStudio:** the IDE you write and run it in
 - **why:** used throughout the D modules of the program
+- **why 2:** a powerful statistical and visualization tool, widely adopted in bioinformatics and data science
 - a separate toolchain from Python - different job, different tool
 
 ---
@@ -119,7 +108,7 @@ Jūlija Pečerska, Julian Kraft
 # IDE (Integrated Development Environment)
 
 - a program for writing, running and debugging code - with autocomplete, error highlighting, and more
-- **why:** technically you could write code in any texteditor, but an IDE makes you dramatically faster and catches mistakes early
+- **why:** technically you could write code in any text editor, but an IDE makes you dramatically faster and catches mistakes early
 - we recommend VS Code or PyCharm - either is fine, details in the tutorial
 
 ---
@@ -130,6 +119,7 @@ A little crash course
 
 - a text-based way to talk to your computer: you type commands instead of clicking
 - **why:** most of the tools from today (mamba, git, ssh) only exist as command-line tools - this is a core skill, not an optional one
+- **why 2:** computational sciences require a lot of computation, and most HPC (high-performance computing) clusters are Linux-based
 - looks intimidating now, will feel normal within a couple of weeks
 
 
