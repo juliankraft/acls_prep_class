@@ -1,0 +1,48 @@
+name: acls
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # Machine learning
+  - scikit-learn
+  - xgboost
+  - statsmodels
+
+  # Deep learning
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+
+  # Notebooks / interactive
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - notebook
+
+  # Data handling / utilities
+  - openpyxl
+  - pyarrow
+  - requests
+  - tqdm
+  - pyyaml
+
+  # Dev tooling
+  - black
+  - flake8
+  - pytest
+
+  - pip
+  - pip:
+      - kagglehub

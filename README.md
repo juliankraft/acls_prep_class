@@ -5,10 +5,10 @@
 ### objectives
 
 - install WSL (Windows Subsystem for Linux)
-- install a package manager Homebrew (macOS)
+- install a package manager, Homebrew (macOS)
 - install Mamba - a Python environment manager
 - install R and RStudio
-- create a GitHub account and link it to your students account
+- create a GitHub account and link it to your student account
 - set up an SSH key and link it to your GitHub account
 - decide on your IDE (Visual Studio Code or PyCharm)
 
@@ -22,12 +22,12 @@
 ## Day 2 - Getting started with Python
 
 ### objectives
-- install Visual Studio Code - an IDE for programming
+- install Visual Studio Code or Pycharm - IDEs for programming
 - get a Python environment ready for Data Science
 - create a first simple Python script and run it
 - use a Jupyter Notebook to run Python code interactively (exploration and visualization)
 - clone a GitHub repository to your local computer and run the code
-- setup your own GitHub repository for a Python project and push it to GitHub
+- set up your own GitHub repository for a Python project and push it to GitHub
 
 ### resources
 - [slides](https://juliankraft.github.io/acls_prep_class/slides/0903_presentation.html)
