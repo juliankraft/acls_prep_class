@@ -17,6 +17,7 @@
 - [windows tutorial](tutorials/windows_setup_tutorial.md)
 - [mac tutorial](tutorials/mac_setup_tutorial.md)
 - [github, ssh and ide tutorial](tutorials/github_ssh_ide.md)
+- [useful commands](tutorials/useful_commands.md)
 - [terminal exercises](https://fabienmaussion.info/scientific_programming/week_01/02b-Linux.html#today-s-learning-task-try-the-linux-command-line)
 
 ## Day 2 - Getting started with Python

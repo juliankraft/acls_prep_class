@@ -57,7 +57,7 @@ If this all worked out, you are already set to start using Python.
 
 You will be working with quite a few repositories during your studies - so organize them well.
 Never use a folder that is synced with a cloud service (e.g. OneDrive, Dropbox, Google Drive) for your development work.
-A possible location could be `~/Repos` (create it if it does not exist yet) and keep all your active repos there.
+A possible location could be `~/Repositories/` (create it if it does not exist yet) and keep all your active repos there.
 Or find a location that works for you - there are many ways to organize your work.
 To clone the repo, open a terminal, navigate to the folder where you want to keep your repos and run the following command:
 
