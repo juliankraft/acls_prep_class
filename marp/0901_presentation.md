@@ -52,7 +52,7 @@ Jūlija Pečerska, Julian Kraft
 - hands-on using tutorials and links
 - we are here to help
 - you find all materials under: <br>
-  [https://github.com/juliankraft/acls_prep_class](https://github.com/juliankraft/acls_prep_class)
+  [https://juliankraft.github.io/acls_prep_class/](https://juliankraft.github.io/acls_prep_class/)
 
 ---
 
@@ -122,5 +122,9 @@ A little crash course
 - **why 2:** computational sciences require a lot of computation, and most HPC (high-performance computing) clusters are Linux-based
 - looks intimidating now, will feel normal within a couple of weeks
 
+---
 
+# Link to materials
+
+[https://juliankraft.github.io/acls_prep_class/](https://juliankraft.github.io/acls_prep_class/)
 
