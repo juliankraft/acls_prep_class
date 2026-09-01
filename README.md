@@ -20,7 +20,7 @@
 - [useful commands](tutorials/useful_commands.md)
 - [terminal exercises](https://fabienmaussion.info/scientific_programming/week_01/02b-Linux.html#today-s-learning-task-try-the-linux-command-line)
 
-## Day 2 - Getting started with Python
+<!--## Day 2 - Getting started with Python
 
 ### objectives
 - install Visual Studio Code or Pycharm - IDEs for programming
@@ -32,7 +32,7 @@
 
 ### resources
 - [slides](https://juliankraft.github.io/acls_prep_class/slides/0903_presentation.html)
-- [python tutorial](tutorials/python_tutorial.md)
+- [python tutorial](tutorials/python_tutorial.md)-->
 
 ## License
 
