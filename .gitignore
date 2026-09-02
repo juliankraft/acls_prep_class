@@ -75,3 +75,6 @@ uv.lock
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 .jupyter/
+
+# example_script.py output
+dice_rolls.png
