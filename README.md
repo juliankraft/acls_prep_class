@@ -20,19 +20,18 @@
 - [useful commands](tutorials/useful_commands.md)
 - [terminal exercises](https://fabienmaussion.info/scientific_programming/week_01/02b-Linux.html#today-s-learning-task-try-the-linux-command-line)
 
-<!--## Day 2 - Getting started with Python
+## Day 2 - Getting started with Python
 
 ### objectives
-- install Visual Studio Code or Pycharm - IDEs for programming
-- get a Python environment ready for Data Science
-- create a first simple Python script and run it
-- use a Jupyter Notebook to run Python code interactively (exploration and visualization)
-- clone a GitHub repository to your local computer and run the code
-- set up your own GitHub repository for a Python project and push it to GitHub
+- have your IDE of choice up and running
+- have a Python environment ready for your classes
+- clone and create a GitHub repository
+- run Python code and create some yourself
+- run Jupyter Notebooks and create one yourself
 
 ### resources
 - [slides](https://juliankraft.github.io/acls_prep_class/slides/0903_presentation.html)
-- [python tutorial](tutorials/python_tutorial.md)-->
+- [python tutorial](tutorials/python_tutorial.md)
 
 ## License
 
