@@ -30,7 +30,7 @@
 - run Jupyter Notebooks and create one yourself
 
 ### resources
-- [slides](https://juliankraft.github.io/acls_prep_class/slides/0903_presentation.html)
+- [slides](https://juliankraft.github.io/acls_prep_class/docs/slides/0903_presentation.html)
 - [python tutorial](tutorials/python_tutorial.md)
 
 ## License
