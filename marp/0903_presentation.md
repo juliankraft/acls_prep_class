@@ -58,7 +58,7 @@ files end in `.py`:
 
 ---
 
-### Conda/Mamba - best practices
+## Conda/Mamba - best practices
 
 - use `environment.yml` to define your environment
 - keep it up to date for reproducibility
@@ -66,7 +66,7 @@ files end in `.py`:
 
 ---
 
-# GitHub
+# Git + GitHub
 
 - **git** tracks changes to your code in a repository
 - **GitHub** hosts your repositories and lets you collaborate
@@ -74,7 +74,7 @@ files end in `.py`:
 
 ---
 
-### Git - best practices
+## Git - best practices
 
 - git is only supposed to track plain text (e.g. code) - never track weird stuff like Word files
 - git will store anything you commit indefinitely:
@@ -87,7 +87,7 @@ files end in `.py`:
 
 ---
 
-### Git + Jupyter Notebooks - best practices
+## Git + Jupyter Notebooks - best practices
 
 - never commit your notebook to git or at least strip its output
 - use notebooks for interactive exploration, not for production code
