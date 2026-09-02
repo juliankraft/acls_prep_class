@@ -39,8 +39,6 @@ files end in `.py`:
   df.head()
 ```
 
-### Python Scripts
-
 - run your scripts from the command line using `python <script>.py` or hit the run button in your IDE
 - install a linter and formatter - e.g. `flake8` - to make them readable and consistent
 
