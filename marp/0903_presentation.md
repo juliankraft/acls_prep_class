@@ -47,6 +47,7 @@ files end in `.py`:
 # Jupyter Notebook
 
 ![w:600](img/logo/jupyter_example.png)
+
 ---
 
 # Python Environment
