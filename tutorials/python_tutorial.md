@@ -30,23 +30,23 @@ Open a terminal (WSL on Windows) and try to do the following tasks:
 
 1. Create a new environment called `test`:
    ```bash
-   mamba create -n test
+   conda create -n test
    ```
 2. List all environments:
    ```bash
-   mamba env list
+   conda env list
    ```
 3. Activate the `test` environment:
    ```bash
-   mamba activate test
+   conda activate test
    ```
 4. Deactivate the `test` environment:
    ```bash
-   mamba deactivate
+   conda deactivate
    ```
 5. Delete the `test` environment:
    ```bash
-   mamba env remove -n test
+   conda env remove -n test
    ```
 
 </details>
