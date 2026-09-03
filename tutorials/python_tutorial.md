@@ -114,3 +114,12 @@ Select the `acls` environment as the kernel in the top right corner of the noteb
 - Create a new Python script in your repository that does something.
 - Run the script to make sure it works.
 - Commit and push your changes to GitHub using your IDE or terminal - figure this one out yourself.
+
+# Stuff you can do to get even more ready:
+
+- Set up Cisco VPN connection: [ServiceDesk - VPN](https://servicedesk.zhaw.ch/tas/public/ssp/content/detail/service?unid=a07ed1318fe646008b9bba5df2f7b15d)
+- sign up for a hpc account: [HPC-Wiki](https://docs.hpc.zhaw.ch/getting-started/)
+- if you care for it - sign in to office 365 with your student account and get it for free
+- install the ZHAW LSFM app on Google Play or Apple App Store to learn whats for lunch
+- apply for the student discount on Spotify: [Spotify Student Discount](https://www.spotify.com/ch-de/student/)
+- check if you pay for other subscription where you can get a student discount - hopefully you will find some more

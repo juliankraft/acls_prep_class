@@ -92,5 +92,12 @@ files end in `.py`:
 - never commit your notebook to git or at least strip its output
 - use notebooks for interactive exploration, not for production code
 
+---
 
+## lets do some stuff!
+
+[https://juliankraft.github.io/acls_prep_class/](https://juliankraft.github.io/acls_prep_class/)
+
+There is a list with additional things you can do to prepare for your semester.
+You can do them - its not a necessity - and the list is not exhaustive.
 
