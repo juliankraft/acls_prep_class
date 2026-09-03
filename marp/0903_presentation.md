@@ -96,7 +96,7 @@ files end in `.py`:
 
 ## Let's do some stuff!
 
-[https://juliankraft.github.io/acls_prep_class/](https://juliankraft.github.io/acls_prep_class/)
+[juliankraft.github.io/acls_prep_class/tutorials/python_tutorial.html](https://juliankraft.github.io/acls_prep_class/tutorials/python_tutorial.html)
 
 There is a list with additional things you can do to prepare for your semester.
 You can do them - it's not a necessity - and the list is not exhaustive.
