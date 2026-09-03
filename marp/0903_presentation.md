@@ -94,10 +94,10 @@ files end in `.py`:
 
 ---
 
-## lets do some stuff!
+## Let's do some stuff!
 
 [https://juliankraft.github.io/acls_prep_class/](https://juliankraft.github.io/acls_prep_class/)
 
 There is a list with additional things you can do to prepare for your semester.
-You can do them - its not a necessity - and the list is not exhaustive.
+You can do them - it's not a necessity - and the list is not exhaustive.
 

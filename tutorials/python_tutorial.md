@@ -9,8 +9,8 @@ Do not hesitate to engage us and ask questions if you have any issues.
 If you haven't already done so, please install your IDE (Integrated Development Environment) of choice.
 [code.visualstudio.com](https://code.visualstudio.com/) or [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)
 
-### If you are using Pycharm:
-Apply for the free student license for the professional edition of Pycharm at [jetbrains.com/academy/student-pack/](https://www.jetbrains.com/academy/student-pack/).
+### If you are using PyCharm:
+Apply for the free student license for the professional edition of PyCharm at [jetbrains.com/academy/student-pack/](https://www.jetbrains.com/academy/student-pack/).
 
 ### If you use VS Code on Windows:
 Install the WSL extension for VS Code and check out, how this works on [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
@@ -120,6 +120,6 @@ Select the `acls` environment as the kernel in the top right corner of the noteb
 - Set up Cisco VPN connection: [ServiceDesk - VPN](https://servicedesk.zhaw.ch/tas/public/ssp/content/detail/service?unid=a07ed1318fe646008b9bba5df2f7b15d)
 - sign up for a hpc account: [HPC-Wiki](https://docs.hpc.zhaw.ch/getting-started/)
 - if you care for it - sign in to office 365 with your student account and get it for free
-- install the ZHAW LSFM app on Google Play or Apple App Store to learn whats for lunch
+- install the ZHAW LSFM app on Google Play or Apple App Store to learn what's for lunch
 - apply for the student discount on Spotify: [Spotify Student Discount](https://www.spotify.com/ch-de/student/)
 - check if you pay for other subscription where you can get a student discount - hopefully you will find some more
