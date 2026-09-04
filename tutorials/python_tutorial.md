@@ -76,38 +76,49 @@ conda activate acls
 ```
 </details>
 
-## Step 4: Connecting your IDE with Python
+## Step 4: Connecting your IDE with the Python environment
 
-**Important:** You need to understand the difference between opening a file and opening a project - so we send this ahead of any other instructions.
-If you open a file - you will have limited access to settings and to configuring your interpreter.
+To use your IDE properly, you will need to ensure that the code is run by the right interpreter - the one that has all the necessary packages installed, e.g., the interpreter within the `acls` environment you created previously. Otherwise, the IDE will try to use the system-wide interpreter, which will not have the right packages available.
+
+**Important:** You need to understand the difference between opening a file and opening a project - so we send this ahead of any other instructions. IDEs are configured per project, and settings are saved in a hidden folder within the project folder.
+
+If you open a file - you will have limited access to settings and to configuring your interpreter, as there is no associated project folder and nowhere to store the settings.
 If you open a project - by opening a folder - you will have access to all settings and can configure your interpreter for the project.
+
+Get used to opening projects, not individual files, as most real-scale projects will have multiple connected source files.
 
 ### Install your IDE
 
 This part depends on your OS and choice of IDE. Do the section corresponding to your setup.
 
-If you haven't already done so, please install your IDE (Integrated Development Environment) of choice.
-[code.visualstudio.com](https://code.visualstudio.com/) or [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)
+If you haven't already done so, please install your IDE (Integrated Development Environment) of choice. We recommend using either [Visual Studio Code](https://code.visualstudio.com/) or [PyCharm](https://www.jetbrains.com/pycharm/).
 
 ### PyCharm
+
 Apply for the free student license for the professional edition of PyCharm at [jetbrains.com/academy/student-pack/](https://www.jetbrains.com/academy/student-pack/).
 
 #### OSX:
-You are lucky, this should not be a problem - just select conda as your interpreter in your IDE.
-Should you need more instructions check out [jetbrains.com](https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html#conda-requirements)
+
+Select the `acls` virtual environment in your IDE by following the instructions at [jetbrains.com](https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html).
 
 #### Windows:
-This will be a bit more involved, since you need to configure your interpreter within WSL.
-Give it a go using the instructions on [jetbrains.com](https://www.jetbrains.com/help/pycharm/using-wsl-as-a-remote-interpreter.html#configure-wsl)
+
+Setting up PyCharm on Windows will mean that you need to configure the IDE to use the interpreter within WSL. Follow the instructions for this on [jetbrains.com](https://www.jetbrains.com/help/pycharm/using-wsl-as-a-remote-interpreter.html#configure-wsl).
 
 ### VS Code
 
+Since VS Code is not Python-specific out of the box, you will need to install several Python-related extensions to make the best of it. For a minimal setup we recommend installing the [official Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python), [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy), [Flake8 linter](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) and the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter).
+
 #### OSX:
-You should be able to select your Python interpreter in your IDE and you should be good to go.
-For additional instructions check out [code.visualstudio.com](https://code.visualstudio.com/docs/python/environments)
-Install all the official Python and Jupyter extensions for VS Code.
+
+You will also need the [Python environments extension](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs) on top of the ones mentioned above.
+
+Select the `acls` virtual environment by following the instructions at [code.visualstudio.com](https://code.visualstudio.com/docs/python/environments#_select-an-environment).
 
 #### Windows:
+
+You will also need the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) on top of the ones mentioned above.
+
 Connect your VS Code to WSL. You will find instructions on this on [code.visualstudio.com](https://code.visualstudio.com/docs/remote/wsl).
 
 Once connected:
