@@ -14,37 +14,29 @@ To install WSL, follow the instructions on the [Microsoft website](https://learn
 
 Once it's installed (and you've rebooted if prompted), you need a terminal running inside your new Ubuntu system - this is where you'll run every command in the rest of these tutorials. Open the Start menu, type "Ubuntu" and launch the app that shows up (the first time you do this it will ask you to create a username and password for your Linux user - this is separate from your Windows login). From now on, whenever these tutorials say "open a terminal", this is the terminal to use.
 
-## Step 2: Install Mamba
+## Step 2: Install Conda
 
-Mamba is a package manager for Python that makes it easy to install and manage Python packages and environments.
+Conda is a package manager for Python that makes it easy to install and manage Python packages and environments.
 You might have heard of Conda before or you are going to hear about it in the future.
-Mamba is basically the same thing as Conda, but it is faster and more efficient.
 
-We'll install a slimmed-down version of it called Micromamba. First, make sure `curl` is available:
+We'll install a slimmed-down version of it called Miniconda. First, make sure `curl` is available:
 ```bash
 sudo apt update && sudo apt install -y curl
 ```
 
 Then open your WSL (Ubuntu) terminal and run the following command:
 ```bash
-"${SHELL}" <(curl -L micro.mamba.pm/install.sh)
+"${SHELL}" <(curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh)
 ```
-When prompted, accept the default install location, use `~/mamba` as the root prefix, and let it initialize itself for your shell (it will auto-detect `bash`, WSL's default shell).
+When prompted, accept the default install location, use `~/conda` as the root prefix, and let it initialize itself for your shell (it will auto-detect `bash`, WSL's default shell).
 
 After the installation is complete, either restart your terminal or run this to load it into your current session:
 ```bash
 source ~/.bashrc
 ```
 
-This installs a command called `micromamba` (not `mamba`). To be able to just use `conda` as it will show in most tutorials, you can run this command in your terminal:
-```bash
-echo 'alias conda="micromamba"' >> ~/.bashrc
-```
-
-And to finalise this, we need to reload these configurations by running this command in your terminal:
-```bash
-source ~/.bashrc
-```
+> [!NOTE]
+> We recommend conda for WSL users (rather than mamba/micromamba) because one of the standard Python IDEs (PyCharm) can only use conda natively.
 
 ## Step 3: Install R and RStudio
 

@@ -12,30 +12,24 @@ Homebrew is a package manager for macOS that makes it easy to install and manage
 
 To install Homebrew, follow the instructions on the [Homebrew website](https://brew.sh/).
 
-## Step 2: Install Mamba
+## Step 2: Install Conda
 
-Mamba is a package manager for Python that makes it easy to install and manage Python packages and environments.
+Conda is a package manager for Python that makes it easy to install and manage Python packages and environments.
 You might have heard of Conda before or you are going to hear about it in the future.
-Mamba is basically the same thing as Conda, but it is faster and more efficient.
 
-To install Mamba, open a terminal and run the following command:
+To install Conda, open a terminal and run the following command:
 ```bash
-brew install micromamba
+brew install miniconda
 ```
 
-After the installation is complete you need to initialize Mamba for your shell.
+After the installation is complete you need to initialize Conda for your shell.
 Run this in your terminal:
-```bash
-mamba shell init --shell zsh --root-prefix ~/mamba
-``` 
-
-To be able to just use `conda` as it will show in most tutorials, you can run this command in your terminal:
-```bash
-echo 'alias conda="mamba"' >> ~/.zshrc
+```zsh
+ conda init "$(basename "${SHELL}")"
 ```
 
-And to finalise this, we need to reload these configurations by running this command in your terminal:
-```bash
+After the installation is complete, either restart your terminal or run this to load it into your current session:
+```zsh
 source ~/.zshrc
 ```
 
