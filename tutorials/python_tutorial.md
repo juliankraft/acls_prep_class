@@ -4,18 +4,7 @@ These are instructions to get started using Python in the ACLS master program.
 Please follow the steps below carefully.
 Do not hesitate to engage us and ask questions if you have any issues.
 
-## Step 1: Install your IDE
-
-If you haven't already done so, please install your IDE (Integrated Development Environment) of choice.
-[code.visualstudio.com](https://code.visualstudio.com/) or [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)
-
-### If you are using PyCharm:
-Apply for the free student license for the professional edition of PyCharm at [jetbrains.com/academy/student-pack/](https://www.jetbrains.com/academy/student-pack/).
-
-### If you use VS Code on Windows:
-Install the WSL extension for VS Code and check out, how this works on [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-
-## Step 2: Create a Python environment
+## Step 1: Create a Python environment
 
 Check out the [Mamba User Guide](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html).
 Open a terminal (WSL on Windows) and try to do the following tasks:
@@ -53,7 +42,7 @@ Open a terminal (WSL on Windows) and try to do the following tasks:
 
 If this all worked out, you are already set to start using Python.
 
-## Step 3: Clone this repository to your local computer
+## Step 2: Clone this repository to your local computer
 
 You will be working with quite a few repositories during your studies - so organize them well.
 Never use a folder that is synced with a cloud service (e.g. OneDrive, Dropbox, Google Drive) for your development work.
@@ -65,9 +54,7 @@ To clone the repo, open a terminal, navigate to the folder where you want to kee
 git clone git@github.com:juliankraft/acls_prep_class.git
 ```
 
-## Step 4: Work through the Example Project
-
-### Environment setup
+## Step 3: Environment setup
 
 This environment will bring you pretty far in your first term.
 You can use it to solve your early assignments and to get started with your first projects.
@@ -89,7 +76,49 @@ conda activate acls
 ```
 </details>
 
-### Running a Python script
+## Step 4: Connecting your IDE with Python
+
+**Important:** You need to understand the difference between opening a file and opening a project - so we send this ahead of any other instructions.
+If you open a file - you will have limited access to settings and to configuring your interpreter.
+If you open a project - by opening a folder - you will have access to all settings and can configure your interpreter for the project.
+
+### Install your IDE
+
+This part depends on your OS and choice of IDE. Do the section corresponding to your setup.
+
+If you haven't already done so, please install your IDE (Integrated Development Environment) of choice.
+[code.visualstudio.com](https://code.visualstudio.com/) or [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)
+
+### PyCharm
+Apply for the free student license for the professional edition of PyCharm at [jetbrains.com/academy/student-pack/](https://www.jetbrains.com/academy/student-pack/).
+
+#### OSX:
+You are lucky, this should not be a problem - just select conda as your interpreter in your IDE.
+Should you need more instructions check out [jetbrains.com](https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html#conda-requirements)
+
+#### Windows:
+This will be a bit more involved, since you need to configure your interpreter within WSL.
+Give it a go using the instructions on [jetbrains.com](https://www.jetbrains.com/help/pycharm/using-wsl-as-a-remote-interpreter.html#configure-wsl)
+
+### VS Code
+
+#### OSX:
+You should be able to select your Python interpreter in your IDE and you should be good to go.
+For additional instructions check out [code.visualstudio.com](https://code.visualstudio.com/docs/python/environments)
+Install all the official Python and Jupyter extensions for VS Code.
+
+#### Windows:
+Connect your VS Code to WSL. You will find instructions on this on [code.visualstudio.com](https://code.visualstudio.com/docs/remote/wsl).
+
+Once connected:
+- Open your project folder in the WSL window (e.g. run `code .` from a WSL terminal inside the cloned repo).
+- Install the Python and Jupyter extensions again inside the WSL window if prompted - extensions that run remotely need to be installed separately for WSL, even if you already installed them locally.
+- Select the `acls` conda environment as your Python interpreter (`Ctrl+Shift+P` -> "Python: Select Interpreter").
+
+
+## Step 5: Running Code
+
+## Running a Python script
 
 Your environment is ready and activated - run the `example_script.py` file:
 
@@ -107,7 +136,7 @@ Open the Jupyter Notebook in your IDE and try to figure out how this works.
 In VS Code, you might have to install the Jupyter extension first.
 Select the `acls` environment as the kernel in the top right corner of the notebook to run it.
 
-## Step 5: Create your own GitHub repository
+## Step 7: Create your own GitHub repository
 
 - Use this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) to create your own GitHub repository.
 - Use this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?platform=windows&tool=webui) to clone your new repository to your local computer (use the SSH key option).
